@@ -1,0 +1,44 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":
+	{
+		"recipes":
+		[
+			"rabbitsfoot:rabbitsfoot_recipe"
+		]
+	},
+	"criteria":
+	{
+		"mieso":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:slime_block"
+						]
+					}
+				]
+			}
+		},
+		"has_the_recipe":
+		{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe": "rabbitsfoot:rabbitsfoot_recipe"
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"mieso",
+			"has_the_recipe"
+		]
+	]
+}

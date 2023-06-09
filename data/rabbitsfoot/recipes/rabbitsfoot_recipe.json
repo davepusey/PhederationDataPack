@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{
+			"item":
+			"minecraft:slime_block"
+		},
+		{
+			"item": "minecraft:leather"
+		}
+	],
+	"result":
+	{
+		"item": "minecraft:rabbit_foot",
+		"count": 1
+	}
+}

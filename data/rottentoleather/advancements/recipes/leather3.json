@@ -1,0 +1,44 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":
+	{
+		"recipes":
+		[
+			"rottentoleather:leather_recipe3"
+		]
+	},
+	"criteria":
+	{
+		"mieso":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:rotten_flesh"
+						]
+					}
+				]
+			}
+		},
+		"has_the_recipe":
+		{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe": "rottentoleather:leather_recipe3"
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"mieso",
+			"has_the_recipe"
+		]
+	]
+}
